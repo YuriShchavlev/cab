@@ -28,22 +28,6 @@ public class Main extends Application{
         Pane root = FXMLLoader.load(
                 getClass().getResource("/cap/Main.fxml"));
 
-
-                /*new VBox();
-       // Button btn =new Button("OK");
-        Label lbl=new Label("It's JavaFX!");
-        TextField txt =new TextField();
-
-       *//* btn.setOnAction(event -> {
-           lbl.setText("Hello, "+txt.getText()+" !");
-        });*//*
-
-       lbl.textProperty().bind(
-               Bindings.concat("Hello, ",txt.textProperty()," !"));
-
-        root.getChildren().addAll(lbl,txt);*/
-
-
         Scene scene =new Scene(root,500,300);
 
         primaryStage.setTitle("Cows and bulls");
